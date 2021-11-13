@@ -13,7 +13,7 @@
         "test": "hardhat test",
         "test:coverage": "hardhat coverage",
         "test:gasreport": "cross-env GAS_REPORT_ENABLED=true hardhat test",
-        "compile": "hardhat compile && hardhat typechain",
+        "compile": "hardhat compile",
         "prepare": "husky install"
     },
     "devDependencies": {
