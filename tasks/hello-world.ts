@@ -1,4 +1,4 @@
-const { task } = require("hardhat/config");
+import { task } from "hardhat/config";
 
 task("hello-world", "A test task that prints hello world").setAction(
     async () => {
